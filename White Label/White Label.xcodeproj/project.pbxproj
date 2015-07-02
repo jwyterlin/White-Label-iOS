@@ -11,7 +11,6 @@
 		5B51A4401B45DAA3001C3DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A43F1B45DAA3001C3DE5 /* AppDelegate.m */; };
 		5B51A4431B45DAA3001C3DE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A4421B45DAA3001C3DE5 /* ViewController.m */; };
 		5B51A4461B45DAA3001C3DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4441B45DAA3001C3DE5 /* Main.storyboard */; };
-		5B51A4481B45DAA3001C3DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4471B45DAA3001C3DE5 /* Assets.xcassets */; };
 		5B51A44B1B45DAA3001C3DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4491B45DAA3001C3DE5 /* LaunchScreen.storyboard */; };
 		5B51A4561B45DAA3001C3DE5 /* White_LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A4551B45DAA3001C3DE5 /* White_LabelTests.m */; };
 		5B51A4611B45DAA3001C3DE5 /* White_LabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A4601B45DAA3001C3DE5 /* White_LabelUITests.m */; };
@@ -19,9 +18,10 @@
 		5B51A4711B45DABB001C3DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A43F1B45DAA3001C3DE5 /* AppDelegate.m */; };
 		5B51A4721B45DABB001C3DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A43C1B45DAA3001C3DE5 /* main.m */; };
 		5B51A4751B45DABB001C3DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4491B45DAA3001C3DE5 /* LaunchScreen.storyboard */; };
-		5B51A4761B45DABB001C3DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4471B45DAA3001C3DE5 /* Assets.xcassets */; };
 		5B51A4771B45DABB001C3DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4441B45DAA3001C3DE5 /* Main.storyboard */; };
 		5B51A47E1B45DBD8001C3DE5 /* White Label 2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */; };
+		5B51A4871B45E315001C3DE5 /* Assets2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4851B45E2D2001C3DE5 /* Assets2.xcassets */; };
+		5B51A4891B45E3CE001C3DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4881B45E3CE001C3DE5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		5B51A4411B45DAA3001C3DE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B51A4421B45DAA3001C3DE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B51A4451B45DAA3001C3DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B51A4471B45DAA3001C3DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B51A44A1B45DAA3001C3DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B51A44C1B45DAA3001C3DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B51A4511B45DAA3001C3DE5 /* White LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White LabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,8 @@
 		5B51A4621B45DAA3001C3DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B51A47B1B45DABB001C3DE5 /* White Label 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Label 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "White Label 2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5B51A4851B45E2D2001C3DE5 /* Assets2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets2.xcassets; sourceTree = "<group>"; };
+		5B51A4881B45E3CE001C3DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +119,12 @@
 		5B51A43A1B45DAA3001C3DE5 /* White Label */ = {
 			isa = PBXGroup;
 			children = (
+				5B51A4811B45E138001C3DE5 /* Assets */,
 				5B51A43E1B45DAA3001C3DE5 /* AppDelegate.h */,
 				5B51A43F1B45DAA3001C3DE5 /* AppDelegate.m */,
 				5B51A4411B45DAA3001C3DE5 /* ViewController.h */,
 				5B51A4421B45DAA3001C3DE5 /* ViewController.m */,
 				5B51A4441B45DAA3001C3DE5 /* Main.storyboard */,
-				5B51A4471B45DAA3001C3DE5 /* Assets.xcassets */,
 				5B51A4491B45DAA3001C3DE5 /* LaunchScreen.storyboard */,
 				5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */,
 				5B51A44C1B45DAA3001C3DE5 /* Info.plist */,
@@ -156,6 +157,15 @@
 				5B51A4621B45DAA3001C3DE5 /* Info.plist */,
 			);
 			path = "White LabelUITests";
+			sourceTree = "<group>";
+		};
+		5B51A4811B45E138001C3DE5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5B51A4881B45E3CE001C3DE5 /* Assets.xcassets */,
+				5B51A4851B45E2D2001C3DE5 /* Assets2.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B51A44B1B45DAA3001C3DE5 /* LaunchScreen.storyboard in Resources */,
-				5B51A4481B45DAA3001C3DE5 /* Assets.xcassets in Resources */,
+				5B51A4891B45E3CE001C3DE5 /* Assets.xcassets in Resources */,
 				5B51A4461B45DAA3001C3DE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,8 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B51A4751B45DABB001C3DE5 /* LaunchScreen.storyboard in Resources */,
-				5B51A4761B45DABB001C3DE5 /* Assets.xcassets in Resources */,
 				5B51A47E1B45DBD8001C3DE5 /* White Label 2-Info.plist in Resources */,
+				5B51A4871B45E315001C3DE5 /* Assets2.xcassets in Resources */,
 				5B51A4771B45DABB001C3DE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

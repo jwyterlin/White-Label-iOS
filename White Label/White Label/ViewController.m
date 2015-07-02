@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property(nonatomic,strong) IBOutlet UIImageView *image;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.image.image = [UIImage imageNamed:@"a"];
     
 #if defined(TARGET_2)
     NSLog(@"Version 2");
