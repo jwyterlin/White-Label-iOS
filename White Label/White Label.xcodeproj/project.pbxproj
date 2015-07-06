@@ -22,6 +22,8 @@
 		5B51A47E1B45DBD8001C3DE5 /* White Label 2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */; };
 		5B51A4871B45E315001C3DE5 /* Assets2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4851B45E2D2001C3DE5 /* Assets2.xcassets */; };
 		5B51A4891B45E3CE001C3DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A4881B45E3CE001C3DE5 /* Assets.xcassets */; };
+		5B5DF5811B4AF21200F27FE8 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DF5801B4AF21200F27FE8 /* UIColor+Helper.m */; };
+		5B5DF5821B4AF49A00F27FE8 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DF5801B4AF21200F27FE8 /* UIColor+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "White Label 2-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5B51A4851B45E2D2001C3DE5 /* Assets2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets2.xcassets; sourceTree = "<group>"; };
 		5B51A4881B45E3CE001C3DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B5DF57F1B4AF21200F27FE8 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		5B5DF5801B4AF21200F27FE8 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				5B51A43F1B45DAA3001C3DE5 /* AppDelegate.m */,
 				5B51A4411B45DAA3001C3DE5 /* ViewController.h */,
 				5B51A4421B45DAA3001C3DE5 /* ViewController.m */,
+				5B5DF57F1B4AF21200F27FE8 /* UIColor+Helper.h */,
+				5B5DF5801B4AF21200F27FE8 /* UIColor+Helper.m */,
 				5B51A4441B45DAA3001C3DE5 /* Main.storyboard */,
 				5B51A4491B45DAA3001C3DE5 /* LaunchScreen.storyboard */,
 				5B51A47D1B45DBD8001C3DE5 /* White Label 2-Info.plist */,
@@ -330,6 +336,7 @@
 				5B51A4431B45DAA3001C3DE5 /* ViewController.m in Sources */,
 				5B51A4401B45DAA3001C3DE5 /* AppDelegate.m in Sources */,
 				5B51A43D1B45DAA3001C3DE5 /* main.m in Sources */,
+				5B5DF5811B4AF21200F27FE8 /* UIColor+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +363,7 @@
 				5B51A4701B45DABB001C3DE5 /* ViewController.m in Sources */,
 				5B51A4711B45DABB001C3DE5 /* AppDelegate.m in Sources */,
 				5B51A4721B45DABB001C3DE5 /* main.m in Sources */,
+				5B5DF5821B4AF49A00F27FE8 /* UIColor+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +605,7 @@
 				5B51A4671B45DAA3001C3DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B51A4681B45DAA3001C3DE5 /* Build configuration list for PBXNativeTarget "White LabelTests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +614,7 @@
 				5B51A46A1B45DAA3001C3DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B51A46B1B45DAA3001C3DE5 /* Build configuration list for PBXNativeTarget "White LabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +623,7 @@
 				5B51A46D1B45DAA3001C3DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B51A4781B45DABB001C3DE5 /* Build configuration list for PBXNativeTarget "White Label 2" */ = {
 			isa = XCConfigurationList;

@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+Helper.h"
 
 @interface ViewController ()
 
 @property(nonatomic,strong) IBOutlet UIImageView *image;
+@property(nonatomic,strong) IBOutlet UIButton *button;
 
 @end
 
@@ -27,7 +29,12 @@
 #else
     NSLog(@"Version 1");
 #endif
-
+    
+    self.button.backgroundColor = [UIColor colorWithHexString:@"#FFE12A"];
+    
+    NSString *tororo = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Tororo"];
+    
+    NSLog(@"tororo: %@", tororo);
     
 }
 

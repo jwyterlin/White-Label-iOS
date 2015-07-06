@@ -16,15 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IzF-IE-qvy">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IzF-IE-qvy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igh-bF-zcD">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="CJA-6e-xPB"/>
+                                </constraints>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Igh-bF-zcD" firstAttribute="top" secondItem="IzF-IE-qvy" secondAttribute="bottom" id="6Nw-Bh-mlW"/>
+                            <constraint firstItem="IzF-IE-qvy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8HD-TJ-cz5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Igh-bF-zcD" secondAttribute="bottom" id="8yv-8I-POd"/>
+                            <constraint firstItem="Igh-bF-zcD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Cca-UZ-YTz"/>
+                            <constraint firstAttribute="trailing" secondItem="IzF-IE-qvy" secondAttribute="trailing" id="Rmy-jI-XYB"/>
+                            <constraint firstAttribute="trailing" secondItem="Igh-bF-zcD" secondAttribute="trailing" id="bkL-Gl-Ram"/>
+                            <constraint firstItem="IzF-IE-qvy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pqe-dq-Sx2"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="Igh-bF-zcD" id="mOh-tM-9Mf"/>
                         <outlet property="image" destination="IzF-IE-qvy" id="MUE-yX-USV"/>
                     </connections>
                 </viewController>
