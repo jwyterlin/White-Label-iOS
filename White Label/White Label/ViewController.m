@@ -32,9 +32,10 @@
     
     self.button.backgroundColor = [UIColor colorWithHexString:@"#FFE12A"];
     
-    NSString *tororo = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Tororo"];
+    NSDictionary *colors = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Colors"];
+    NSString *mainBarColorString = colors[@"MainBar"];
     
-    NSLog(@"tororo: %@", tororo);
+    self.button.backgroundColor = [UIColor colorWithHexString:mainBarColorString];
     
 }
 

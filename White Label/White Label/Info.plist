@@ -45,5 +45,10 @@
 	</array>
 	<key>Tororo</key>
 	<string>Fui no toróro beber água e não achei</string>
+	<key>Colors</key>
+	<dict>
+		<key>MainBar</key>
+		<string>#FFE12A</string>
+	</dict>
 </dict>
 </plist>

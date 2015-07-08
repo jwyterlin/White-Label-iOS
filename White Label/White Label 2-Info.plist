@@ -45,5 +45,10 @@
 	</array>
 	<key>Tororo</key>
 	<string>Segura o tchan, amarra o tchan, segura o tchan tchan tchan tchan tchan</string>
+	<key>Colors</key>
+	<dict>
+		<key>MainBar</key>
+		<string>#00E12A</string>
+	</dict>
 </dict>
 </plist>
